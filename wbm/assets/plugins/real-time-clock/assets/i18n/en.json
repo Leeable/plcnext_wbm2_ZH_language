@@ -1,0 +1,51 @@
+{
+    "dateAndTime": {
+        "pageName": "日期与时间",
+        "currentValues": {
+            "title": "状态",
+            "currentDateTimeLabel": "当前日期和时间"
+        },
+        "refreshDateTimeButtonLabel": "刷新",
+        "ntpEntries": {
+            "title": "NTP 客户端配置"
+        },
+        "config": {
+            "hostname": "服务器主机名",
+            "number": "序号",
+            "status": "状态",
+            "minpoll": "最小轮询间隔",
+            "maxpoll": "最大轮询间隔",
+            "comment": "备注",
+            "addNtpEntryTitle": "添加新的 NTP 服务器条目",
+            "editNtpEntryTitle": "编辑 NTP 服务器条目",
+            "filterOptions": "服务器配置"
+        },
+        "minMaxPollOpt": {
+            "4": "16 秒",
+            "5": "32 秒",
+            "6": "1 分 4 秒",
+            "7": "2 分 8 秒",
+            "8": "4 分 16 秒",
+            "9": "8 分 32 秒",
+            "10": "17 分 4 秒",
+            "11": "34 分 8 秒",
+            "12": "1 小时 8 分 16 秒",
+            "13": "2 小时 16 分 32 秒",
+            "14": "4 小时 33 分 4 秒",
+            "15": "9 小时 6 分 8 秒",
+            "16": "18 小时 12 分 16 秒",
+            "17": "36 小时 24 分 32 秒"
+        },
+        "inactiveOpt": {
+            "Active": "启用",
+            "Inactive": "禁用"
+        },
+        "errors": {
+            "configLoadError": "查询 NTP 配置失败。",
+            "configSaveError": "保存 NTP 配置失败。"
+        },
+        "messages": {
+            "savedSuccessful": "NTP 配置已成功保存并应用。"
+        }
+    }
+}

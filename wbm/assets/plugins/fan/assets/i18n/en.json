@@ -1,0 +1,43 @@
+{
+    "fan": {
+        "pageName": "风扇控制",
+        "status": {
+            "title": "状态",
+            "fanStatus": "风扇状态",
+            "fanMaintenance": "风扇维护",
+            "lastCalibration": "上次校准时间"
+        },
+
+        "configuration": {
+            "title": "配置",
+            "fanCalibration": "风扇校准",
+            "startCalibration": "开始校准"
+        },
+        "statusinfo": {
+            "noDefect": "无故障",
+            "Defect": "存在故障",
+            "noMaintenance": "无需维护",
+            "Maintenance": "需要维护",
+            "noInfo": "无可用信息",
+            "noSupported": "未插入风扇模块"
+        },
+
+        "messages": {
+            "calibrationStarted": "风扇校准已成功启动",
+            "calibrationSuccess": "风扇校准成功",
+            "calibrationFailed": "风扇校准失败"
+        },
+
+        "modal": {
+            "dialogTitel": "风扇校准",
+            "description": "是否继续执行风扇校准？",
+            "calibration": "正在校准风扇……"
+        },
+
+        "help": {
+            "PageDescriptionP1": "风扇控制页面提供已安装风扇模块的状态与维护信息。",
+            "furtherInfo": "更多信息请参见：",
+            "furtherInfo1": "PLCnext 技术信息中心"
+        }
+    }
+}

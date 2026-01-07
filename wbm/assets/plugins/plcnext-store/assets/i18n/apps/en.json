@@ -1,0 +1,90 @@
+{
+    "plcnextApps": {
+        "pageName": "应用程序管理",
+        "general": {
+            "installApp": "安装 PLCnext 技术应用程序",
+            "installAppAction": "安装应用程序",
+            "appInfo": "元数据",
+            "additionalAppInfo": "附加应用程序信息",
+            "appName": "名称",
+            "appId": "标识符",
+            "version": "版本",
+            "minFwVersion": "最低固件版本",
+            "manufacturer": "制造商",
+            "appLink": "网页",
+            "goToAppPage": "前往应用程序页面",
+            "supportedDevices": "支持的设备",
+            "rtWarning": "应用程序管理可能对系统的实时性产生不利影响。因此，在生产运行期间请勿执行任何应用程序管理操作！",
+            "restartWarnung": "至少有一个应用程序需要系统重启。",
+            "stop": "停止",
+            "start": "启动",
+            "stopApp": "停止 PLCnext 技术应用程序",
+            "startApp": "启动 PLCnext 技术应用程序",
+            "stopAndRestart": "停止并重启",
+            "startAndRestart": "启动并重启",
+            "restartOnAppStart": "为启动 PLCnext 技术应用程序 <span class=\"bold\">{{appName}}</span>，系统将自动执行重启。",
+            "restartOnAppStop": "为停止 PLCnext 技术应用程序 <span class=\"bold\">{{appName}}</span>，系统将自动执行重启。",
+            "uninstall": "卸载",
+            "uninstallAndRestart": "卸载并重启",
+            "uninstallAppTitle": "卸载 PLCnext 技术应用程序",
+            "uninstallStoppedApp": "PLCnext 技术应用程序 <span class=\"bold\">{{appName}}</span> 将被卸载。",
+            "uninstallStartedApp": "PLCnext 技术应用程序 <span class=\"bold\">{{appName}}</span> 将先停止，随后卸载。",
+            "uninstallStartedAppRestart": "PLCnext 技术应用程序 <span class=\"bold\">{{appName}}</span> 将停止并卸载，之后系统将自动重启！",
+            "uninstallAppDataDelete": "卸载时将删除该应用程序创建的所有数据。",
+            "errorsArpLog": "错误的详细说明可在设备日志文件 Arp.log 中查看。",
+            "noInstalledApps": "设备上未安装任何 PLCnext 技术应用程序。",
+            "loadingApps": "正在加载已安装的 PLCnext 技术应用程序……",
+            "uninstallingApp": "正在卸载 PLCnext 技术应用程序……",
+            "installAppConfirm": "将安装一个 PLCnext 技术应用程序。若为更新操作，设备将自动重启。"
+        },
+        "states": {
+            "startingAppTitle": "正在启动应用程序……",
+            "stoppingAppTitle": "正在停止应用程序……",
+            "uninstallingAppTitle": "正在卸载应用程序……",
+            "appInstallPrepair": "正在准备 PLCnext 技术应用程序安装……",
+            "installingAppTitle": "正在安装 PLCnext 技术应用程序……",
+            "uninstallingPLCnextAppTitle": "正在卸载 PLCnext 技术应用程序……"
+        },
+        "license": {
+            "valid": "已存在",
+            "notRequired": "无需许可证",
+            "noLicenseRestricted": "缺失（功能受限）",
+            "noLicenseFull": "缺失（无功能）",
+            "noLicenseFullDesc": "该应用程序无许可证。启动应用程序需有效的许可证。",
+            "noLicenseRestrictedDesc": "该应用程序无许可证。无许可证时，应用程序将以受限功能集启动。",
+            "licenseManagementInfo": "已安装许可证的信息可在 WBM 页面 ",
+            "licenseManagement": "许可证管理"
+        },
+        "errors": {
+            "startErrorTitle": "启动失败！",
+            "stopErrorTitle": "停止失败！",
+            "appsListError": "获取已安装应用程序列表失败。错误代码：{{errorCode}}",
+            "appsStatusGetError": "查询已安装应用程序状态失败。错误代码：{{errorCode}}",
+            "appInstallError": "安装 PLCnext 技术应用程序失败。错误代码：{{errorCode}}",
+            "appUninstallError": "卸载 PLCnext 技术应用程序 '{{appName}}' 时发生错误。错误代码：{{errorCode}}",
+            "appStartError": "启动 PLCnext 技术应用程序 '{{appName}}' 失败。错误代码：{{errorCode}}",
+            "appStopError": "停止 PLCnext 技术应用程序 '{{appName}}' 失败。错误代码：{{errorCode}}",
+            "installModeEnableError": "启用安装模式失败。错误代码：{{errorCode}}",
+            "disableModeEnableError": "禁用安装模式失败。错误代码：{{errorCode}}",
+            "infoRequestError": "请求应用程序信息项（ID：{{infoId}}）失败。错误代码：{{errorCode}}",
+            "invalidAppFormat": "PLCnext 技术应用程序容器文件格式无效。仅接受 '.app' 格式文件。",
+            "detailedErrorInfo": "详细错误描述可在设备日志文件 Arp.log 或 WBM 通知页面中查看。",
+            "fileUploadFailed": "上传应用程序容器文件失败。错误代码：{{errorCode}}"
+        },
+        "messages": {
+            "appsListSuccess": "已成功更新已安装应用程序列表。",
+            "appsInstallSuccess": "PLCnext 技术应用程序已成功安装。",
+            "appsInstallStarted": "PLCnext 技术应用程序安装已开始。",
+            "appsUninstallSuccess": "PLCnext 技术应用程序 '{{appName}}' 已成功卸载。",
+            "appsUninstallStarted": "PLCnext 技术应用程序 '{{appName}}' 的卸载已开始。",
+            "appStartSuccess": "PLCnext 技术应用程序 '{{appName}}' 已成功启动。",
+            "appStartTriggeredSuccess": "正在启动 PLCnext 技术应用程序 '{{appName}}'。",
+            "appStopSuccess": "PLCnext 技术应用程序 '{{appName}}' 已成功停止。",
+            "appStopTriggeredSuccess": "正在停止 PLCnext 技术应用程序 '{{appName}}'。"
+        },
+        "help": {
+            "pageDescriptionP1": "在本页面中，您可以安装和卸载 PLCnext 技术应用程序。安装成功后，还可在此启动或停止应用程序。",
+            "pageDescriptionP2": "<span class=\"inline-element\">PLCnext 技术应用程序是从功能库到完整程序的各类软件应用，可从 </span><a class=\"inline-element\" href='https://www.plcnextstore.com/' target='_blank' rel='noopener noreferrer'>PLCnext 商店</a><span class=\"inline-element\"> 下载获取。</span>"
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "networkConfig": {
+        "network": "网络",
+        "status": "状态",
+        "lanInterfaces": "LAN 接口",
+        "configuration": "配置",
+        "success": {
+            "dataSaveSuccess": "网络配置已成功保存。"
+        },
+        "errors": {
+            "configQueryError": "查询网络配置失败。",
+            "statusQueryError": "查询网络状态失败。",
+            "dataSaveError": "保存网络配置失败。",
+            "componentConfigQueryError": "查询组件配置失败：错误 {{message}}"
+        },
+        "messages": {
+            "loadingConfig": "正在加载配置…"
+        },
+        "help": {
+            "pageTitle": "网络配置",
+            "lanInterfaces": "在此选项卡中，您可以查看和调整设备的网络设置。",
+            "lanInterfacesStatus": "状态：当前实时运行状态。数值可能动态变化，因此每秒更新一次。",
+            "lanInterfacesConfig": "配置：您可在此调整配置。修改将在系统重启后生效。",
+            "savedConfigReboot": "更改将在重启后生效！",
+            "redundancy": {
+                "title": "冗余配置",
+                "attention": "物理 IP 地址将自动设置！",
+                "example": "IP 地址示例：",
+                "systemIpLabel": "系统 IP",
+                "systemIpExample": "192.168.1.x",
+                "firstIpLabel": "物理 IP 地址（主设备 FIRST）",
+                "firstIpExample": "192.168.1.x + 1",
+                "secondIpLabel": "物理 IP 地址（备设备 SECOND）",
+                "secondIpExample": "192.168.1.x + 2"
+            }
+        }
+    },
+    "netloadLimiter": {
+        "tabTitle": "网络负载限制器（Netload Limiter）",
+        "packetLimiter": "数据包限制器",
+        "byteLimiter": "字节限制器",
+        "limiterStatus": "限制器状态",
+        "currentLimiting": "当前限流状态",
+        "limitingActive": "正在限流（过去 1 秒内）",
+        "limitingInactive": "当前未限流",
+        "limit": "限制阈值",
+        "limit0Warning": "此配置将导致网络接口被关闭。",
+        "packetsPerMs": "数据包数/毫秒",
+        "bytesPerMs": "字节数/毫秒",
+        "statistics": {
+            "statisticsReset": "统计重置",
+            "resetStatistics": "重置统计",
+            "timeSinceLastReset": "距上次重置统计的时长",
+            "packetLimiterStatistics": "数据包限制器统计",
+            "byteLimiterStatistics": "字节限制器统计",
+            "movingAverage": "移动平均值（1 秒窗口）",
+            "movingAverageMax": "移动平均最大值",
+            "peak": "峰值",
+            "limitingDuration": "累计限流时长",
+            "nrOfLimitingEvents": "限流事件发生次数"
+        },
+        "messages": {
+            "resetStatisticsSuccess": "限制器统计数据已成功重置。",
+            "configSaveSuccess": "网络负载限制器配置已成功保存。",
+            "deactivated": "网络负载限制器已禁用。",
+            "limiterNotSupported": "该 LAN 接口不支持网络负载限制功能。"
+        },
+        "errors": {
+            "configQueryError": "查询网络负载限制器配置失败。错误代码：{{errorCode}}",
+            "statusQueryError": "查询网络负载限制器状态失败。错误代码：{{errorCode}}",
+            "dataSaveError": "保存网络负载限制器配置失败。",
+            "ifaceSettingsQueryError": "查询 LAN 接口 {{networkInterface}} 的网络负载限制器配置失败。错误代码：{{errorCode}}",
+            "resetStatisticsError": "重置限制器统计失败。错误代码：{{errorCode}}",
+            "configSaveError": "保存网络负载限制器配置失败。错误代码：{{errorCode}}"
+        },
+        "help": {
+            "netloadLimiter": "网络负载限制器用于限制因接收以太网报文而导致的 CPU 负载，防止网络风暴引发系统过载。"
+        }
+    }
+}

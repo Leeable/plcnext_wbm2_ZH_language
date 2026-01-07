@@ -1,0 +1,27 @@
+{
+    "wizards": {
+        "example": {
+            "title": "示例向导",
+            "page1": {
+                "step": "步骤 1",
+                "hostname": {
+                    "label": "主机名",
+                    "placeholder": "设备在网络中的名称"
+                },
+                "dateInput": "日期输入",
+                "explanation": "请填写主机名，并选择一个至少为两天后的日期。"
+            },
+            "page2": {
+                "step": "步骤 2",
+                "oldPassword": "原密码",
+                "newPassword": "新密码",
+                "repeatNewPassword": "确认新密码",
+                "explanation": "请设置新密码以保障系统安全。"
+            },
+            "page3": {
+                "step": "步骤 3",
+                "explanation": "请确认新配置信息无误。"
+            }
+        }
+    }
+}

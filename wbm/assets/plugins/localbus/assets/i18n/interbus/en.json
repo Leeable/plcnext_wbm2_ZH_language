@@ -1,0 +1,74 @@
+{
+    "interbusDiag": {
+        "pageName": "INTERBUS",
+        "moduleInfo": "模块说明",
+        "localBus": {
+            "title": "本地总线",
+            "status": "状态",
+            "busStatus": "总线状态",
+            "moduleList": "模块列表"
+        },
+        "interbusStatus": {
+            "title": "INTERBUS 状态",
+            "busstatus": "总线状态",
+            "modulstatus": "模块状态",
+            "moduleerror": "至少一个模块存在错误",
+            "moduleok": "模块无异常信息",
+            "moduledisabled": "无有效数据可用",
+            "quitText": "更新错误信息",
+            "quitButton": "确认"
+        },
+        "moduleList": {
+            "title": "INTERBUS 模块列表",
+            "number": "序号",
+            "moduleDescription": "模块说明",
+            "lenght": "{{value}} 位",
+            "processData": "过程数据",
+            "moduleId": "模块 ID",
+            "identcode": "标识码",
+            "peripheralError": "外围设备错误"
+        },
+        "diagRegisters": {
+            "title": "INTERBUS 诊断寄存器",
+            "reg": "状态寄存器",
+            "reg1": "参数寄存器 1",
+            "reg2": "参数寄存器 2"
+        },
+        "errors": {
+            "loadDeviceArray": "加载设备信息失败。错误代码：{{errorCode}}",
+            "loadDeviceStateArray": "加载设备状态数组失败。错误代码：{{errorCode}}",
+            "loadInterbusDiag": "加载 INTERBUS 诊断信息失败。错误代码：{{errorCode}}",
+            "confirmInterbusDiag": "确认 INTERBUS 诊断信息失败。"
+        },
+        "help": {
+            "pageDescriptionP1": "在“总线状态”选项卡中，您可以查看所连接 INTERBUS 本地总线的状态与诊断信息。",
+            "pageDescriptionP2": "在“模块列表”选项卡中，您可以查看已配置的 INTERBUS 设备。"
+        },
+        "devices": {
+            "module_specific_sbt_in": "数字量输入模块（安全桥接技术）",
+            "module_specific_sbt_out": "数字量输出模块（安全桥接技术）",
+            "module_specific_aio_para": "带参数数据的模拟量输入/输出模块",
+            "module_specific_ao_para": "带参数数据的模拟量输出模块",
+            "module_specific_ai_para": "带参数数据的模拟量输入模块",
+            "module_specific_invalid": "无效 ID",
+            "module_specific_bk": "总线终端模块",
+            "module_specific_rb": "远程总线模块",
+
+            "module_ios_analog": "模拟量",
+            "module_ios_digital": "数字量",
+            "module_ios_out": " 输出",
+            "module_ios_in": " 输入",
+            "module_ios_inout": " 输入/输出",
+
+            "module_pcp_pcpdrivcom": "DRIVECOM 设备，含",
+            "module_pcp_pcpencom": "ENCOM 设备，含",
+            "module_pcp_pcpprofile": "带配置文件的从站，含",
+            "module_pcp_pcpsafety": "安全从站，含",
+            "module_pcp_pcpdefault": "普通从站，含",
+            "module_pcp_pcp1w": " 1 个 PCP 字",
+            "module_pcp_pcp2w": " 2 个 PCP 字",
+            "module_pcp_pcp4w": " 4 个 PCP 字",
+            "module_pcp_pcpunsup": " 不支持的 PCP 长度"
+        }
+    }
+}

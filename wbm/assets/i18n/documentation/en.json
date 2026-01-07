@@ -1,0 +1,17 @@
+{
+    "documentation": {
+        "helpAndSupport": "帮助与支持",
+        "productInfoDownloads": "产品信息与下载",
+        "productPSIRT": "菲尼克斯电气安全事件响应小组（PSIRT）",
+        "proficloud": "ProfiCloud",
+        "plcnextStore": "PLCnext 商店",
+        "plcnextCommunity": "PLCnext 社区",
+        "plcnextInfoCenter": "PLCnext 技术信息中心",
+        "securityInfoCenter": "PLCnext 技术安全信息中心",
+        "storeInfoCenter": "PLCnext 商店信息中心",
+        "wbm2PagesAccessibility": "WBM 2 页面无障碍访问说明",
+        "errors": {
+            "configLoadError": "页面配置加载失败"
+        }
+    }
+}

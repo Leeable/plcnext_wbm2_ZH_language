@@ -1,0 +1,18 @@
+{
+    "ups": {
+        "pageName": "集成式 UPS",
+        "upsLongText": "集成式不间断电源（UPS）",
+        "status": "状态",
+        "health": "健康状态",
+        "chargeLevel": "电量",
+        "chargeLevelUnit": "%",
+        "help": {
+            "furtherInfo": "更多信息：",
+            "furtherInfo1": "系统提供了若干系统变量，可用于在应用程序中评估集成 UPS 的状态。<br/>相关变量说明请参阅",
+            "furtherInfo2": "PLCnext Technology 信息中心"
+        },
+        "errors": {
+            "loadDiagnosticValues": "获取 UPS 诊断数据失败。"
+        }
+    }
+}

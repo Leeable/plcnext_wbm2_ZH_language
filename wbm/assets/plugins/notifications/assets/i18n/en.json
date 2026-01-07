@@ -1,0 +1,45 @@
+{
+    "notifications": {
+        "pageName": "通知",
+        "filter": "筛选",
+        "archiveName": "归档名称",
+        "severity": "严重性",
+        "sender": "发送方",
+        "maxNumberOfNotifications": "最大通知数量",
+        "timeFrom": "起始时间",
+        "timeTo": "结束时间",
+        "time": "时间",
+        "name": "名称",
+        "notification": "通知",
+        "notifications": "通知",
+        "applyFilterButtonLabel": "应用筛选",
+        "resetFilterButtonLabel": "重置筛选",
+        "exportCsvButtonLabel": "导出 CSV 文件",
+        "noSelectedNotification": "未选择通知",
+        "archiveOptions": {
+            "allArchives": "<全部归档>",
+            "security": "安全",
+            "default": "默认",
+            "alarms": "告警"
+        },
+        "severityOptions": {
+            "internal": "≥ 内部",
+            "information": "≥ 信息",
+            "warning": "≥ 警告",
+            "error": "≥ 错误",
+            "criticalError": "≥ 严重错误",
+            "fatalError": "致命错误"
+        },
+        "errors": {
+            "archivesError": "获取归档名称失败。"
+        },
+        "redundancy": {
+            "rolelabel": "冗余角色",
+            "typelabel": "冗余类型",
+            "componentQueryFailed": "查询冗余是否启用失败。错误：{{message}}"
+        },
+        "help": {
+            "pageDescription": "在“通知”页面中，您可以查看并下载通知日志。任何具备 WBM 访问权限的用户均可查看和下载本页面信息。"
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "axiolineDiag": {
+        "pageName": "Axioline 诊断",
+        "moduleInfo": "模块信息",
+        "localBus": {
+            "status": "状态",
+            "busStatus": "总线状态",
+            "moduleList": "模块列表"
+        },
+        "axiolineStatus": {
+            "title": "Axioline 状态",
+            "busstatus": "总线状态",
+            "modulstatus": "模块状态",
+            "moduleAddInfo": "对应模块",
+            "moduleerror": "至少 1 个模块存在错误",
+            "modulewarning": "至少 1 个模块存在警告",
+            "moduleok": "模块无消息",
+            "moduledisabled": "无有效数据可用"
+        },
+        "moduleList": {
+            "title": "Axioline 模块列表",
+            "number": "序号",
+            "moduleType": "模块类型",
+            "function": "功能",
+            "location": "位置",
+            "diagnostics": "诊断信息",
+            "emptySlot": "空插槽或无 I/O 功能的模块"
+        },
+        "diagRegisters": {
+            "title": "Axioline 诊断寄存器",
+            "reg": "状态寄存器",
+            "reg1": "参数寄存器 1",
+            "reg2": "参数寄存器 2"
+        },
+        "general": {
+            "title": "通用数据",
+            "moduleNumber": "模块编号",
+            "vendorName": "厂商名称",
+            "productName": "产品名称",
+            "productText": "产品描述",
+            "orderNumber": "订货号",
+            "serialNumber": "序列号",
+            "hardwareVersion": "硬件版本",
+            "firmwareVersion": "固件版本"
+        },
+        "userDefined": {
+            "title": "用户自定义数据",
+            "location": "位置",
+            "function": "功能",
+            "applicationDeviceAddress": "应用层设备地址"
+        },
+        "peripheralError": {
+            "title": "外设错误 — 诊断状态",
+            "diagStateConsNo": "序号",
+            "diagStatePriority": "优先级",
+            "diagStateChannel": "通道/组/模块",
+            "diagStateCode": "代码",
+            "diagStateText": "描述"
+        },
+        "errors": {
+            "loadDeviceArray": "加载设备信息失败。错误代码：{{errorCode}}",
+            "loadDeviceData": "加载设备详细信息失败。错误代码：{{errorCode}}",
+            "loadDeviceStateArray": "加载设备状态失败。错误代码：{{errorCode}}",
+            "loadDeviceDiag": "加载设备诊断数据失败。错误代码：{{errorCode}}",
+            "loadAxiolineDiag": "加载 Axioline 诊断数据失败。错误代码：{{errorCode}}"
+        },
+        "help": {
+            "pageDescriptionP1": "在“总线状态”标签页中，可查看所连接本地 Axioline 总线的状态与诊断信息。",
+            "pageDescriptionP2": "在“模块列表”标签页中，可查看已配置的 Axioline 设备信息。"
+        }
+    }
+}

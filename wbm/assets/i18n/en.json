@@ -1,0 +1,317 @@
+{
+    "pageLayout": {
+        "mainHeader": {
+            "logout": "登出",
+            "login": "登录"
+        },
+        "deviceHeader": {
+            "itemNumber": "物料编号",
+            "serialNumber": "序列号",
+            "hardwareVersion": "硬件版本",
+            "firmwareVersion": "固件版本",
+            "projectName": "项目名称",
+            "deviceFamilyTag": "PLCnext 控制器",
+            "securityProfile": {
+                "title": "安全配置文件",
+                "integrityCheck": "完整性检查"
+            },
+            "errors": {
+                "dataQueryError": "查询设备数据失败！",
+                "secProfileQueryError": "查询安全配置文件状态失败！",
+                "projectNameQueryError": "查询项目名称失败。错误：{{error}}"
+            }
+        },
+        "loginRequiredDialog": {
+            "title": "需要登录",
+            "description": "使用 WBM 必须先登录。点击下方导航按钮跳转至授权服务器登录页。",
+            "navigateToLogin": "跳转至登录页",
+            "enableAutomaticLoginNavigate": "启用自动跳转至登录页",
+            "redirectingToLoginIn": "<span class=\"bold\">{{seconds}}</span> 秒后将自动跳转至登录页。"
+        }
+    },
+    "mainNavigation": {
+        "cockpit": {
+            "pageName": "概览"
+        },
+        "device": {
+            "menuName": "设备"
+        },
+        "configuration": {
+            "menuName": "配置"
+        },
+        "security": {
+            "menuName": "安全"
+        },
+        "diagnostics": {
+            "menuName": "诊断"
+        },
+        "system": {
+            "menuName": "系统",
+            "pages": {
+                "deviceMaintainance": "设备维护"
+            }
+        },
+        "help": {
+            "menuName": "帮助",
+            "pages": {
+                "documentation": "文档",
+                "licenses": "许可证"
+            }
+        }
+    },
+    "help": {
+        "deviceSetupRemark": "设备设置当前处于第 3 步。",
+        "helpLocationLink": "帮助内容请参见此处。",
+        "nextStepRemark": "下一步请选出正确答案，即 42。",
+        "getHelpLink": "获取更多帮助的链接",
+        "downloadHelpFileLink": "下载帮助文件",
+        "networkSetup": "这是网络设置相关的帮助说明。",
+        "furtherInformation": "更多信息请参阅 ",
+        "furtherHelpPLCnextInfoCenter": "更多信息请参阅 PLCnext Technology - 信息中心：",
+        "furtherHelpStoreInfoCenter": "更多信息请参阅 PLCnext Store - 信息中心："
+    },
+    "global": {
+        "units": {
+            "milliAmpere": "mA",
+            "celsius": "°C"
+        },
+        "states": {
+            "connectionStatus": "连接状态",
+            "status": "状态",
+            "connected": "已连接",
+            "disconnected": "已断开",
+            "connectionError": "与设备的连接已丢失。",
+            "reconnected": "已重新建立与设备的连接。",
+            "unsavedChanges": "存在未保存的更改",
+            "errorOccured": "发生错误。",
+            "none": "不适用",
+            "ok": "正常",
+            "success": "成功",
+            "check": "正常",
+            "info": "信息",
+            "information": "信息",
+            "internal": "内部",
+            "warning": "警告",
+            "urgentWarning": "紧急警告",
+            "error": "错误",
+            "critical-error": "严重错误",
+            "fatal-error": "致命错误",
+            "attention": "注意",
+            "activated": "已激活",
+            "deactivated": "已停用",
+            "enabled": "已启用",
+            "disabled": "已禁用",
+            "failed": "失败",
+            "loadingConfig": "正在加载配置…"
+        },
+        "actions": {
+            "save": "保存",
+            "saveAndRestart": "保存并重启",
+            "saveAndApplyPage": "保存并应用本页",
+            "saveAndRestartPage": "保存本页并重启",
+            "saveAndRestartPageHeader": "保存本页并重启",
+            "saveToFile": "保存至文件",
+            "revertPage": "还原本页",
+            "printPage": "打印本页",
+            "enable": "启用",
+            "disable": "禁用",
+            "next": "下一步",
+            "back": "上一步",
+            "cancel": "取消",
+            "finish": "完成",
+            "add": "添加",
+            "ok": "确定",
+            "skip": "跳过",
+            "edit": "编辑",
+            "change": "更改",
+            "rename": "重命名",
+            "delete": "删除",
+            "remove": "移除",
+            "close": "关闭",
+            "selectFile": "选择文件",
+            "generate": "生成",
+            "reconnect": "重新连接",
+            "apply": "应用"
+        },
+        "errors": {
+            "fileUploadError": "文件上传失败。请检查与设备的连接。错误代码：{{errorCode}}"
+        },
+        "dialogMessages": {
+            "deviceReboot": "设备正在重启。",
+            "pageRevert": "用户输入将被丢弃，WBM 页面将重新初始化。是否继续？",
+            "noEntries": "无条目",
+            "saveConfig": "保存配置",
+            "saveConfigRebootRemark": "激活配置需要重启设备，保存后将自动执行重启。",
+            "configApplyRtWarning": "应用配置可能影响系统实时性。请避免在生产运行期间进行重新配置。",
+            "deviceRestartWarning": "请避免在生产运行期间重启设备。",
+            "noFileSelected": "未选择文件。",
+            "targetLinkInEnglish": "。"
+        },
+        "ranges": {
+            "from": "从",
+            "to": "至"
+        },
+        "authentication": {
+            "username": "用户名",
+            "password": "密码",
+            "login": "登录",
+            "errors": {
+                "invalidCredentials": "用户名和/或密码无效",
+                "invalidState": "认证失败：无效的 'state' 参数",
+                "accessTokenExchange": "认证失败：访问令牌请求出错",
+                "logout": "登出时发生错误。",
+                "prolongation": "延长当前会话失败。"
+            },
+            "sessionProlongWarning": "警告：您的会话即将过期。",
+            "sessionProlongWarning1": "WBM 会话剩余时间不足 2 分钟。请留意未保存的配置。",
+            "sessionProlongWarning2": "是否延长 WBM 会话？",
+            "sessionProlongSuccess": "当前会话已成功延长。",
+            "prolongSession": "延长会话"
+        },
+        "network": {
+            "ipAddress": "IP 地址",
+            "enterIpAddress": "输入 IP 地址",
+            "networkMask": "子网掩码",
+            "enterNetworkMask": "输入子网掩码",
+            "defaultGateway": "默认网关",
+            "enterDefaultGateway": "输入默认网关",
+            "dnsServerAddresses": "DNS 服务器地址",
+            "dnsServerAddress": "DNS 服务器地址",
+            "macAddress": "MAC 地址",
+            "dataRate": "数据速率",
+            "duplexMode": "双工模式",
+            "linkState": "链路状态",
+            "linkSpeed": "链路速率",
+            "halfduplex": "半双工",
+            "fullduplex": "全双工"
+        },
+        "progress": {
+            "progress": "已完成 {{value}}%",
+            "canceled": "传输已取消"
+        },
+        "connectionStatus": {
+            "disconnected": "已断开",
+            "connected": "已连接",
+            "broken": "连接错误",
+            "connecting": "连接中…",
+            "online": "在线",
+            "offline": "离线",
+            "disconnecting": "断开连接中…"
+        },
+        "dateAndTime": {
+            "durationFormat": "D 天 HH:MM:SS",
+            "day": "天",
+            "days": "天",
+            "dateFormat": "时间戳格式（UTC）",
+            "timeStampFormat": "YYYY-MM-DD hh:mm:ss"
+        },
+        "userPassword": {
+            "defaultPasswordActive": "强烈建议：更改当前密码。默认用户密码仅用于初次访问。",
+            "userPasswordAboutToExpireH": "用户密码将在 1 小时后过期。请及时更改密码或联系系统管理员。",
+            "userPasswordAboutToExpireHs": "用户密码将在 {{timeToExpire}} 小时后过期。请及时更改密码或联系系统管理员。",
+            "userPasswordAboutToExpireD": "用户密码将在 1 天后过期。请及时更改密码或联系系统管理员。",
+            "userPasswordAboutToExpireDs": "用户密码将在 {{timeToExpire}} 天后过期。请及时更改密码或联系系统管理员。",
+            "userDefaultPasswordActive": "当前使用默认用户密码",
+            "errors": {
+                "userPasswordInfoQueryFailed": "查询当前用户密码信息失败。错误代码：{{errorCode}}"
+            }
+        },
+        "filter": {
+            "title": "筛选",
+            "clear": "重置筛选",
+            "apply": "应用筛选",
+            "status": "筛选状态",
+            "inactive": "未激活",
+            "active": "已激活"
+        }
+    },
+    "pages": {
+        "overview": {},
+        "network": {
+            "ipAssignment": "IP 地址分配方式",
+            "ipAddress": "IP 地址",
+            "enterIpAddress": "输入 IP 地址",
+            "networkMask": "子网掩码",
+            "enterNetworkMask": "输入子网掩码",
+            "defaultGateway": "默认网关",
+            "enterDefaultGateway": "输入默认网关",
+            "summaryText": "IP 地址：{{value1}}，子网掩码：{{value2}}，网关：{{value3}}"
+        },
+        "cockpit": {
+            "statusIndicators": "诊断与状态指示",
+            "utilization": {
+                "title": "资源利用率",
+                "memory": "内存",
+                "userPartition": "用户分区",
+                "cpuLoadTotal": "CPU 负载（总计）",
+                "cpuLoadCore": "CPU 负载（核心 {{core}}）",
+                "queryCpuCountFailed": "无法查询 CPU 核心数量。错误：{{message}}"
+            },
+            "deviceHealth": {
+                "title": "设备健康状态",
+                "temperature": "主板温度"
+            },
+            "plcruntime": {
+                "title": "PLC 运行时",
+                "state": "PLC 状态",
+                "programMemory": "程序内存",
+                "dataMemory": "数据内存",
+                "retainMemory": "保持内存"
+            },
+            "dateTime": {
+                "title": "日期与时间",
+                "current": "当前时间戳",
+                "upTime": "系统运行时间"
+            }
+        }
+    },
+    "validation": {
+        "required": "此项为必填项。",
+        "number": {
+            "maximum": "数值过大，最大值为：{{value}}。",
+            "minimum": "数值过小，最小值为：{{value}}。",
+            "type": "请输入数字。"
+        },
+        "string": {
+            "minLength": "至少需要 {{value}} 个字符。",
+            "maxLength": "最多允许 {{value}} 个字符。",
+            "pattern": "仅允许使用以下字符：{{value}}。"
+        },
+        "ipAddress": "请输入有效的 IP 地址。",
+        "ipAddressRange": "请输入有效的 IP 地址范围。",
+        "defaultGateway": "请输入有效的默认网关。",
+        "port": "请输入有效的端口号。",
+        "portRange": "请输入有效的端口范围。",
+        "subnet": "请输入有效的子网掩码。",
+        "hostname": "请输入有效的主机名。",
+        "inSameSubnet": "IP 地址与网关不在同一子网。",
+        "value": "请输入有效值。",
+        "maxBytesLength": "文本长度不得超过 {{maxLength}} 字节。",
+        "invalidCharacters": "以下字符不允许使用：{{invalidChars}}。",
+        "invalidFirstCharacter": "首字符不可为：{{actualFirstChar}}。",
+        "alphaNumeric": "仅允许使用字母 [a-z, A-Z] 和数字。",
+        "ascii": "仅允许使用 ASCII 字符。",
+        "min": "请输入大于或等于 {{min}} 的值。",
+        "max": "请输入小于或等于 {{max}} 的值。",
+        "minlength": "至少需要 {{requiredLength}} 个字符。",
+        "maxlength": "最多允许 {{requiredLength}} 个字符。",
+        "maxSumValue": "超出允许的最大总和：{{maxSumValue}}。",
+        "dateFieldRequired": "请输入日期。",
+        "dateTimeSpan": "时间范围无效。",
+        "minCheckboxChecker": "请至少选择一项。",
+        "minElementsCount": "请至少添加 {{minCount}} 项。",
+        "ipAddressChecker": "请输入有效的 IP 地址。",
+        "dnsNameChecker": "请输入有效的 DNS 名称。",
+        "checkMaxStringLength2": "最多输入 2 个字符。",
+        "checkMaxStringLengthCommon": "请减少字符数量。",
+        "matchingFields": "“密码”与“确认密码”输入不一致。",
+        "checkMaxBytesLength63": "请输入字节长度不超过 63 的字符串。",
+        "checkMaxBytesLength127": "请输入字节长度不超过 127 的字符串。",
+        "base64": "Base64 格式无效。",
+        "base64pem": "PEM Base64 格式无效。",
+        "faddressRangeValidator": "“结束 F 地址”必须大于“起始 F 地址”。",
+        "passwordsNoMatch": "密码不匹配。",
+        "integer": "请输入整数。",
+        "defaultDateRange": "请输入 1970-01-01 至 9999-12-31 之间的日期。"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "proficloud": {
+        "pageName": "ProfiCloud",
+        "page": {
+            "title": "配置",
+            "subtitle": "ProfiCloud 服务"
+        },
+        "modes": {
+            "label": "通信协议",
+            "proficloud": "ProfiCloud 服务",
+            "mqtt": "MQTT 客户端"
+        },
+        "status": {
+            "disabled": "ProfiCloud 服务已停用。",
+            "configuring": "正在应用配置……",
+            "getuuidfailed": "获取 UUID 失败。",
+            "gettruststoresfailed": "获取信任存储库列表失败。",
+            "getidentitystoresfailed": "获取身份存储库列表失败。",
+            "getconfigfailed": "获取配置失败。",
+            "getstatusfailed": "获取状态失败。",
+            "setconfigfailed": "更新配置失败。",
+            "getscmstatusfailed": "检查 SCM 状态失败。",
+            "saveconfigsuccess": "配置保存成功。",
+            "saveconfigfailed": "配置保存失败。"
+        },
+        "cloudserver": {
+            "unknown": "---",
+            "germanyfrankfurt": "ProfiCloud - 德国法兰克福",
+            "shanghai": "ProfiCloud - 中国上海"
+        },
+        "information": {
+            "title": "信息",
+            "uuid": "UUID",
+            "connectionState": "连接状态",
+            "statusMessage": "状态消息",
+            "status": {
+                "disconnected": "离线",
+                "connecting": "正在连接",
+                "connected": "在线",
+                "broken": "连接中断，服务正在尝试重新连接。"
+            }
+        },
+        "protocol": {
+            "title": "协议"
+        },
+        "connection": {
+            "proficloudTitle": "连接",
+            "mqttTitle": "MQTT 代理设置",
+            "activate": "启用连接",
+            "server": "云服务器",
+            "identityStore": "身份存储库",
+            "trustStore": "信任存储库",
+            "trustStoreConnection": "信任存储库 - 云连接",
+            "trustStoreManagement": "信任存储库 - ProfiCloud 设备管理",
+            "cipherSuites": "加密套件",
+            "tls": "TLS",
+            "host": "主机",
+            "port": "端口",
+            "path": "路径",
+            "clientId": "客户端 ID",
+            "username": "用户名",
+            "password": "密码",
+            "mqttTopic": "MQTT 主题"
+        },
+        "services": {
+            "title": "服务",
+            "management": "设备管理",
+            "tsd": "时序数据",
+            "tsdPublisher": "时序数据发布器"
+        },
+        "deviceManagement": {
+            "title": "设备管理",
+            "activateFwUpdate": "启用固件更新",
+            "autoChangeFwUpdate": "固件更新时自动切换至“准备更新”（PreparedForUpdate）状态",
+            "activateAppUpdate": "启用应用程序更新",
+            "autoChangeAppUpdate": "应用程序更新时自动切换至“准备更新”（PreparedForUpdate）状态"
+        },
+        "tsd": {
+            "title": "时序数据",
+            "sampling": "采样间隔",
+            "samplingIntervalUnit": "毫秒",
+            "publishing": "发布间隔",
+            "publishingIntervalUnit": "毫秒",
+            "qos": "服务质量（QoS）",
+            "qosOptionZero": "至多一次（0）",
+            "qosOptionOne": "至少一次（1）",
+            "qosOptionTwo": "恰好一次（2）"
+        },
+        "buffering": {
+            "title": "非易失性缓存",
+            "activate": "启用非易失性缓存",
+            "interval": "写入间隔",
+            "intervalUnit": "达到此数据集数量后，数据将被永久存储至设备。",
+            "maxFileSize": "最大文件大小",
+            "maxFileSizeUnit": "字节",
+            "deleteRatio": "删除比例",
+            "deleteRatioUnit": "%",
+            "deleteRatioToolTip": "当达到最大文件大小时，将删除最早数据集的指定百分比。"
+        },
+        "mqttbroker": {
+            "title": "MQTT 代理设置"
+        },
+        "rsc": {
+            "setConfigFailed": "参数 '{{param}}' 设置失败。错误：{{error}}"
+        },
+        "help": {
+            "description": "ProfiCloud 页面用于配置设备连接至 ProfiCloud 及数据采集相关设置。"
+        }
+    }
+}

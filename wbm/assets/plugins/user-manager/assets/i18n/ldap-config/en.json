@@ -1,0 +1,81 @@
+{
+    "ldapConfiguration": {
+        "pageName": "LDAP 配置",
+        "general": {
+            "generalConfig": "通用配置",
+            "ldapActivation": "LDAP 启用状态"
+        },
+        "ldapServer": {
+            "title": "LDAP 服务器"
+        },
+        "config": {
+            "seq": "序号",
+            "hostname": "主机名",
+            "port": "端口",
+            "baseDN": "基础 DN（Base DN）",
+            "bindDN": "绑定 DN（Bind DN）",
+            "comment": "备注",
+            "editServerTitle": "编辑 LDAP 服务器配置",
+            "addServerTitle": "添加新的 LDAP 服务器配置"
+        },
+        "basicConfig": {
+            "title": "基础配置",
+            "generalOptions": {
+                "seq": "序号",
+                "hostname": "主机名",
+                "port": "端口",
+                "timeout": "超时时间（秒）"
+            },
+            "securityOptions": {
+                "title": "安全选项",
+                "tls": "TLS 模式",
+                "trustStore": "信任存储",
+                "cipherList": "加密套件列表（Cipher List）",
+                "tlsMode": {
+                    "tls": "TLS（LDAPS，端口 636）",
+                    "startTLS": "StartTLS（基于 LDAP，端口 389 升级加密）",
+                    "deactivated": "已禁用"
+                }
+            },
+            "searchOptions": {
+                "title": "搜索选项",
+                "baseDN": "基础 DN（Base DN）",
+                "searchFilter": "搜索过滤器"
+            },
+            "loginOptions": {
+                "title": "登录选项",
+                "bindDN": "绑定 DN（Bind DN）",
+                "bindPw": "绑定密码",
+                "confBindPw": "确认绑定密码"
+            },
+            "localOptions": {
+                "title": "本地选项",
+                "comment": "备注"
+            }
+        },
+        "enhanced": {
+            "title": "高级配置",
+            "groupAttributes": {
+                "title": "组属性",
+                "attributes": "属性名"
+            },
+            "ldapGroupMappings": {
+                "title": "LDAP 组映射",
+                "ldapGroup": "LDAP 组名",
+                "localUserRole": "本地用户角色"
+            }
+        },
+        "errors": {
+            "configLoadError": "查询 LDAP 配置失败。错误代码：{{errorCode}}",
+            "configReadError": "读取 LDAP 配置失败。错误代码：{{errorCode}}",
+            "configWriteError": "写入 LDAP 配置失败。错误代码：{{errorCode}}",
+            "configSaveError": "保存 LDAP 配置失败。错误代码：{{errorCode}}",
+            "savedSuccessful": "LDAP 配置已成功保存并生效。"
+        },
+        "help": {
+            "PageDescriptionP1": "在 LDAP 配置页面中，您可以配置一个或多个 LDAP 服务器连接，以实现集中式用户管理。",
+            "furtherInfo": "更多信息：",
+            "furtherInfo1": "请参阅 PLCnext Technology 信息中心"
+        }
+    }
+}

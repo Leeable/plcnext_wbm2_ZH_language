@@ -1,0 +1,38 @@
+{
+    "splc": {
+        "pageName": "SPLC",
+        "title": "安全型 PLC（SPLC）",
+        "notifications": "SPLC PROFIsafe® 通知",
+        "activate": "启用",
+        "faddressRange": "PROFIsafe® 通知的 F 地址范围",
+        "startaddress": "起始地址",
+        "endaddress": "结束地址",
+
+        "messages": {
+            "saveSuccessful": "SPLC 配置已成功保存。",
+            "saveError": "保存 SPLC 配置失败。",
+            "loadSuccess": "SPLC 配置已成功加载。",
+            "loadError": "加载 SPLC 配置失败。",
+            "info": "仅处于指定 F 地址范围内的 SPLC PROFIsafe® 通知会被启用。"
+        },
+        "help": {
+            "pageTitle": "SPLC 配置",
+            "furtherInfo": "更多详细信息请参阅设备用户手册，或访问 ",
+            "F_ADDR_XXXXX_PASS_OUT": "PROFIsafe® 设备 XXXXX 已被钝化（进入安全状态）。",
+            "F_ADDR_XXXXX_DEVICE_FAULT": "PROFIsafe® 设备 XXXXX 报告故障。",
+            "F_ADDR_XXXXX_CHF_ACK_REQ": "PROFIsafe® 设备 XXXXX 检测到通道错误，需人工确认。",
+            "F_ADDR_XXXXX_CE_CRC": "PROFIsafe® 设备 XXXXX 发生通信错误，原因源自 F_CE_CRC 参数<sup>[1]</sup>。",
+            "F_ADDR_XXXXX_WD_TIMEOUT": "PROFIsafe® 设备 XXXXX 发生通信错误，原因源自 F_WD_TIMEOUT 参数<sup>[2]</sup>。",
+            "F_ADDR_XXXXX_ACK_REQ": "PROFIsafe® 设备 XXXXX 在故障清除后请求操作员确认。",
+            "F_ADDR_XXXXX_IPAR_OK": "PROFIsafe® 设备 XXXXX 已完成 iParameter 应用。",
+            "F_ADDR_XXXXX_CE_CRC_H": "PROFIsafe® 设备 XXXXX 发生通信错误，原因源自 f-host 驱动器的 F_CE_CRC_H 参数。",
+            "F_ADDR_XXXXX_WD_TIMEOUT_H": "PROFIsafe® 设备 XXXXX 发生通信错误，原因源自 f-host 驱动器的 F_WD_TIMEOUT_H 参数。",
+            "F_ADDR_XXXXX_LOOPBACK": "PROFIsafe® 设备 XXXXX 发生通信错误，原因源自回环检测失败。",
+            "paramMinimumHeader": "[1] 当满足以下任一条件时，该参数将被置位：",
+            "paramMinimum1": "PROFIsafe® 设备 XXXXX 检测到 CRC 校验码错误导致的通信异常；",
+            "paramMinimum2": "PROFIsafe® 控制器与设备 XXXXX 之间存在参数配置不一致；",
+            "paramMinimum3": "PROFIsafe® 控制器与设备 XXXXX 之间发生通信中断。",
+            "parameterSetHeader": "[2] 当 PROFIsafe® 设备 XXXXX 检测到通信超时（超出所配置的 F_WD_Time 值）时，该参数将被置位。"
+        }
+    }
+}

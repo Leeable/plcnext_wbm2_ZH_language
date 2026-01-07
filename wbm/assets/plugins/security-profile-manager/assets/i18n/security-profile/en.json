@@ -1,0 +1,38 @@
+{
+    "securityProfile": {
+        "pageName": "安全配置文件",
+        "profileActivation": "安全配置文件启停",
+        "activateProfile": "启用安全配置文件",
+        "deactivateProfile": "禁用安全配置文件",
+        "status": "状态",
+        "config": "配置",
+        "activationStatus": "启用状态",
+        "deactivated": "安全配置文件已禁用",
+        "activated": "安全配置文件已启用",
+        "deactivating": "正在禁用安全配置文件…",
+        "activating": "正在启用安全配置文件…",
+        "success": {
+            "activationSuccess": "安全配置文件已成功启用。",
+            "deactivationSuccess": "安全配置文件已成功禁用。"
+        },
+        "errors": {
+            "statusQueryError": "查询安全配置文件状态失败。错误代码：{{errorCode}}",
+            "activationError": "启用安全配置文件失败。错误代码：{{errorCode}}",
+            "deactivationError": "禁用安全配置文件失败。错误代码：{{errorCode}}"
+        },
+        "messages": {
+            "activated": "已启用：",
+            "deactivated": "已禁用：",
+            "activatedInfo": "设备将根据安全要求，以最小功能集启动。",
+            "deactivatedInfo": "设备支持配置所有开放接口。",
+            "configurationSuitable": "请确认此配置是否适用于您的应用场景。",
+            "securityRiskAnalysis": "建议执行安全风险分析。",
+            "activationDeactivationInfo": "启用或禁用安全配置文件时，设备将恢复为类型 1 的默认设置，所有应用数据将被清除。",
+            "activateDeactivateProdWarn": "请避免在生产运行期间启用或禁用安全配置文件。",
+            "activationConfirmInfo": "启用安全配置文件时，设备将恢复为类型 1 的默认设置，并自动重启。",
+            "deactivationConfirmInfo": "禁用安全配置文件时，设备将恢复为类型 1 的默认设置，并自动重启。",
+            "loadingSecurityProfile": "正在加载安全配置文件状态…"
+        },
+        "help": {}
+    }
+}

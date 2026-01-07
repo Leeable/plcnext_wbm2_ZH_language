@@ -1,0 +1,124 @@
+{
+    "softwareUpdate": {
+        "menuItem": "更新",
+        "page": {
+            "title": "更新"
+        },
+        "general": {
+            "statusLabel": "状态",
+            "deviceHealth": "设备健康状态"
+        },
+        "updatelist": {
+            "title": "更新列表",
+            "table": {
+                "name": "名称",
+                "version": "版本"
+            }
+        },
+        "softwareInfo": {
+            "sectionTitle": "信息",
+            "status": "状态",
+            "hardwareRevision": "硬件版本",
+            "currentVersion": "当前版本",
+            "fallbackVersion": "回退版本",
+            "pendingVersion": "待安装版本"
+        },
+        "installOptions": {
+            "sectionTitle": "安装",
+            "autoResume": "安装完成后自动恢复运行。",
+            "pending": "待处理",
+            "file": "文件",
+            "updateKind": "软件包",
+            "autoResumeInfo": "安装后需手动点击“恢复”才能继续运行。",
+            "fileSelection": "请选择要上传的文件！"
+        },
+        "buttons": {
+            "prepareAndStop": "准备并停止",
+            "startAndResume": "恢复运行",
+            "force": "强制执行",
+            "abort": "中止",
+            "resumeInstall": "取消安装",
+            "startUpdate": "开始更新",
+            "open": "更新",
+            "switchOver": "切换角色",
+            "switchWbm": "打开备份设备"
+        },
+        "redundancy": {
+            "sectionLabel": "冗余配置",
+            "statusRoleLabel": "当前角色",
+            "statusConnectedLabel": "配对设备",
+            "infoLabel": "网络接口",
+            "autoSelectFailedWarning": "自动检测失败。",
+            "infoProjectUpdateNotPossible": "无法在备份设备上执行项目更新。请切换至主设备进行操作。",
+            "updateProcedure": "在备份控制器上完成固件更新后，需验证其行为是否正常；随后执行角色切换，以便在另一台控制器上也完成固件更新。"
+        },
+        "help": {
+            "actions": "对话框中的按钮说明",
+            "downloadLink": "您可以更新设备固件或项目程序。最新版 {{ device }} 固件可在<a href={{ link }}>产品详情页</a>下载。",
+            "prepareAndStop": "为更新准备设备并停止应用程序运行。",
+            "startAndResume": "恢复设备运行并启动应用程序。",
+            "force": "强制执行状态转换以进行更新。",
+            "abort": "中止更新准备过程，或中止启动时等待的状态转换。",
+            "resumeInstall": "清除错误状态。",
+            "startUpdate": "安装所选软件包。"
+        },
+        "fileTransfer": "正在传输软件包……",
+        "fileTransferred": "软件包已传输完成。",
+        "fileTransferSuccess": "正在校验软件包……",
+        "updater": {
+            "softwareupdater": {
+                "title": "项目 {{additionalInfo}}"
+            },
+            "raucupdater": {
+                "title": "固件 {{additionalInfo}}"
+            }
+        },
+        "errors": {
+            "redundancyPrimaryWarning": "您当前位于主控制器。为避免影响运行，固件更新应优先在备份控制器上执行！若仍坚持在主控制器更新，两台设备均将进入 PlcState.Stop 状态。",
+            "redundancyFirmwareDiff.None": "主设备（{{ primary }}）与备份设备（{{ backup }}）的固件版本不一致。",
+            "redundancyFirmwareDiff.Primary": "主设备（{{ primary }}）与备份设备（{{ backup }}）的固件版本不一致。",
+            "redundancyFirmwareDiff.Backup": "主设备（{{ primary }}）与备份设备（{{ backup }}）的固件版本不一致。请先切换角色，再对远程控制器（原主设备）执行固件更新。",
+            "switchOverFailed": "角色切换失败。",
+            "deviceInfoQueryFailed": "无法查询设备信息。",
+            "updaterListQueryFailed": "无法获取可用更新器列表。",
+            "deletePendingFailed": "无法删除待安装版本。",
+            "nopackageselected": "未选择任何软件包。",
+            "setsoftwarepackage": {
+                "transferFailed": "文件传输失败。",
+                "transferFailedReason": "文件传输失败：{{additionalInfo}}",
+                "transferFailedOutOfMemory": "文件传输失败：存储空间不足。",
+                "evalFailedReason": "软件包校验失败：{{additionalInfo}}",
+                "badinvalidargument": "该软件包不适用于此设备。"
+            },
+            "setconfirmationtimeoutfailed": "无法设置确认超时时间。",
+            "installsoftwarepackage": {
+                "start": "无法启动更新。",
+                "badinvalidstate": "无法开始安装：设备未处于“已准备更新”（PreparedForUpdate）状态。"
+            },
+            "force": {
+                "failed": "强制状态转换失败。"
+            },
+            "abort": {
+                "failed": "中止状态转换失败。"
+            },
+            "resumeInstall": {
+                "badinvalidstate": "无法清除错误状态。"
+            },
+            "resume": {
+                "resumeAllFailed": "无法将所有组件恢复至运行模式。",
+                "badinvalidstate": "无法将组件恢复至运行模式。"
+            },
+            "prepare": {
+                "badinvalidstate": "更新器无法进入“已准备更新”（PreparedForUpdate）状态。"
+            }
+        },
+        "deviceHealth": {
+            "normal": "正常",
+            "failure": "故障",
+            "check-function": "功能异常",
+            "off-spec": "超出规格范围",
+            "maintenance-required": "需维护"
+        },
+        "notavailable": "不可用"
+    }
+}

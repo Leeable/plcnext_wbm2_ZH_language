@@ -1,0 +1,81 @@
+{
+    "syslogConfig": {
+        "pageName": "系统日志（Syslog）",
+        "general": {
+            "header": "Syslog 配置",
+            "generalConfig": "通用配置",
+            "serverDestinationsActivition": "Syslog 服务器目标启用"
+        },
+        "serverDestinations": {
+            "title": "Syslog 服务器目标"
+        },
+        "config": {
+            "hostname": "主机名",
+            "port": "端口",
+            "protocol": "协议",
+            "truststore": "信任存储",
+            "facilities": "设施（Facility）",
+            "securityLevel": "安全级别（日志等级）",
+            "noEntries": "无条目",
+            "addServerDestinationTitle": "添加新的 Syslog 服务器目标",
+            "editServerDestinationTitle": "编辑 Syslog 服务器目标",
+            "generalOptions": "通用选项",
+            "filterOptions": "过滤选项",
+            "defaultPort": {
+                "description": "若端口字段为空或未设置，则根据所选协议使用以下默认值：UDP/TCP → 514；TLS → 6514"
+            },
+            "facilityAuth": {
+                "title": "auth",
+                "description": "身份认证系统或要求输入用户名/密码的程序（如 login、su、getty、ftpd）产生的日志消息"
+            },
+            "facilityCron": {
+                "title": "cron",
+                "description": "定时任务（cron）子系统产生的日志消息"
+            },
+            "facilityDaemon": {
+                "title": "daemon",
+                "description": "其他系统守护进程产生的日志消息"
+            },
+            "facilityKern": {
+                "title": "kern",
+                "description": "内核产生的日志消息"
+            },
+            "facilityLocal": {
+                "title": "local",
+                "description": "保留用于本地站点自定义用途的日志消息（local0–local7）"
+            },
+            "facilitySyslog": {
+                "title": "syslog",
+                "description": "系统日志守护进程自身产生的日志消息"
+            },
+            "facilityUser": {
+                "title": "user",
+                "description": "普通用户进程产生的日志消息"
+            }
+        },
+        "errors": {
+            "configLoadError": "查询 Syslog 配置失败！",
+            "configSaveError": "保存 Syslog 配置失败！",
+            "trustStoresLoadError": "查询信任存储失败！"
+        },
+        "messages": {
+            "savedSuccessful": "Syslog 配置已成功保存并生效！"
+        },
+        "validation": {
+            "minCheckedFacilities": "请至少选择一个设施（Facility）！"
+        },
+        "severity": {
+            "internal": "≥ 内部调试（debug）",
+            "information": "≥ 信息（info）",
+            "warning": "≥ 警告（warning）",
+            "error": "≥ 错误（err）",
+            "criticalError": "≥ 严重错误（crit）",
+            "fatalError": "≥ 紧急故障（alert）",
+            "emergency": "紧急（emerg）"
+        },
+        "help": {
+            "pageDescriptionP1": "在 Syslog 配置页面中，您可以配置日志输出目标，以通过 ",
+            "pageDescriptionP2": "（一种系统级、具备实时能力的日志管理工具）进行集中日志记录。"
+        }
+    }
+}

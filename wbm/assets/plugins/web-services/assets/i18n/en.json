@@ -1,0 +1,55 @@
+{
+    "webServices": {
+        "pageName": "Web 服务",
+        "nginxWebServer": "NGINX Web 服务器",
+        "tlsConfiguration": "TLS 配置",
+        "tlsVersion": "TLS 版本",
+        "cipherSuites": "加密套件（Cipher Suites）",
+        "httpsCertificate": "HTTPS 证书",
+        "identityStoreForHTTPS": "HTTPS 证书对应的身份存储",
+        "selfSignedHTTPS": "自签名 HTTPS 证书",
+        "distinguishedName": "可分辨名称（DN）",
+        "commonName": "通用名称（CN）",
+        "organization": "组织（O）",
+        "organizationalUnit": "组织单位（OU）",
+        "location": "城市（L）",
+        "stateOrProvinceName": "州/省名称（ST）",
+        "country": "国家（C）",
+        "validity": "有效期",
+        "notBefore": "生效时间（不早于）",
+        "notAfter": "失效时间（不晚于）",
+        "ipAddress": "IP 地址",
+        "dnsName": "DNS 名称",
+        "useCurrentIP": "使用当前 IP 配置",
+        "messages": {
+            "applyingConfiguration": "应用配置可能影响系统的实时性能。请避免在生产运行期间重新配置。",
+            "attentionKeyPair": "注意：所选身份存储中的密钥对与密钥证书不匹配，系统将使用自签名 HTTPS 证书。",
+            "selfSignedCertRegenerated": "自签名 HTTPS 证书已成功重新生成。",
+            "tlsConfigSet": "TLS 配置已成功保存。",
+            "httpsCertIdentityStoreSet": "HTTPS 证书对应的身份存储已成功设置。",
+            "identityStoreSelectionInfo": "此字段可用于从证书管理中为 HTTPS 证书选择一个身份存储。",
+            "httpsSelfSignedStore": "HTTPS-self-signed：自签名证书对应的身份存储"
+        },
+        "table": {
+            "subjectAlternativeNames": "主题备用名称（SAN）",
+            "subjectAlternativeName": "主题备用名称",
+            "typeOfSubjectAlternativeName": "类型",
+            "action": "操作"
+        },
+        "success": {
+            "ipAddressesListSuccess": "当前 IP 地址列表获取成功。"
+        },
+        "errors": {
+            "ipAddressesListError": "获取当前 IP 地址失败。错误代码：{{errorCode}}",
+            "nginxHttpsTlsConfigQueryError": "查询 HTTPS TLS 配置失败。错误代码：{{errorCode}}",
+            "httpsIdentityStoreQueryError": "查询 HTTPS 证书对应的身份存储失败。错误代码：{{errorCode}}",
+            "selfSignedCertConfigQueryError": "查询自签名 HTTPS 证书配置失败。错误代码：{{errorCode}}",
+            "httpsIdentityStoreSaveError": "保存自签名 HTTPS 证书的身份存储配置失败。错误代码：{{errorCode}}",
+            "nginxHttpsTlsSaveError": "保存 HTTPS TLS 配置失败。错误代码：{{errorCode}}",
+            "generateSelfSignedCertError": "生成自签名 HTTPS 证书失败。错误代码：{{errorCode}}"
+        },
+        "help": {
+            "description": "本页面用于配置 Web 服务，例如 NGINX Web 服务器所使用的 HTTPS 证书。"
+        }
+    }
+}

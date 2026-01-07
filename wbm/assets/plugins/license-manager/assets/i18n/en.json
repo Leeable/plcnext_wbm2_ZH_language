@@ -1,0 +1,144 @@
+{
+    "licenseManager": {
+        "pageName": "许可证管理",
+        "tabs": {
+            "ViewContainer": "许可证概览",
+            "OfflineActivation": "离线激活",
+            "ContainerManagement": "容器管理",
+            "Configuration": "配置"
+        },
+        "containerManagement": {
+            "storageActive": "已激活",
+            "storageNotAvailable": "不可用",
+            "confirmation": "确认",
+            "modalDescription": "许可证容器 {{containerType}} 及其包含的所有许可证将被删除。此操作仅可在菲尼克斯电气技术支持人员明确要求下执行。",
+            "modalcommand": "请输入收到的验证码，以确认删除当前激活存储中的全部数据：",
+            "modalwarning": "警告：此操作不可撤销。",
+            "msgSuccessDeletingContainer": "容器 {{containerType}} 已成功删除。",
+            "msgErrorDeletingContainer": "重置存储失败。",
+            "wrongCode": "验证码错误！"
+        },
+        "configuration": {
+            "header": "许可证客户端配置",
+            "attrAccessType": "访问类型",
+            "attrServerAddress": "服务器地址",
+            "attrUsername": "用户名",
+            "attrRenewalInterval": "续订间隔",
+            "attrReleaseTime": "释放时间",
+            "accTypeNetwork": "通过网络访问许可证",
+            "accTypeDevice": "在本设备上访问许可证",
+            "msgSuccessSavingData": "数据已成功保存，设备将重启。",
+            "msgErrorSavingData": "发生错误。",
+            "measureMin": "分钟",
+            "ttAccessType": "许可证可绑定至设备/SD 卡，或通过网络获取。",
+            "ttServerHostname": "许可证服务器的名称或 IP 地址",
+            "ttUsername": "当使用许可证时，可在许可证服务器的 CodeMeter WebAdmin 中查看该用户名。",
+            "ttRenewalInterval": "向许可证服务器续订已请求许可证的时间间隔。",
+            "ttReleaseTime": "超过此时间后，已请求的许可证将被标记为无效。建议设为续订间隔的整数倍。"
+        },
+        "containerInfo": {
+            "btrefresh": "刷新",
+            "storageLocation": "存储位置",
+            "cmCId": "许可证容器",
+            "firmCode": "厂商代码",
+            "firmCodes": "厂商代码",
+            "firmText": "许可方",
+            "productCode": "产品代码",
+            "productText": "产品名称",
+            "featureMap": "功能映射",
+            "detail": "详情",
+            "licenseQuantity": "许可证数量",
+            "activationTime": "激活时间",
+            "expirationTime": "过期时间",
+            "usagePeriod": "使用期限",
+            "noContainer": "未找到许可证容器。请通过“容器管理”标签页创建许可证容器。",
+            "noEntries": "无记录",
+            "status": {
+                "name": "状态",
+                "false": "许可证有效",
+                "true": "许可证无效"
+            }
+        },
+        "activation": {
+            "activationTitle": "离线激活向导",
+            "start": "开始离线激活",
+            "info": "本向导将引导您完成基于文件的许可证离线激活流程。",
+            "uuid": "UUID",
+            "licenser": "许可方",
+            "storagelocation": {
+                "device": "设备",
+                "sdcard": "SD 卡",
+                "prefix": "LIC - "
+            },
+            "fileFormat": {
+                "title": "文件格式",
+                "RaC": "RaC",
+                "RaU": "RaU",
+                "RaR": "RaR",
+                "plcnext": "PLCnext",
+                "wibuCm": "WibuCm",
+                "plcnextDescription": "PLCnext 商店文件格式",
+                "basicDescription": "基础文件格式",
+                "plcnextDetails": "(*.PLCnextRaC, *.PLCnextRaU, *.PLCnextRaR)",
+                "basicDetails": "(*.WibuCmRaC, *.WibuCmRaU, *.WibuCmRaR)"
+            },
+            "wizard": {
+                "title": "离线许可证激活",
+                "step1": "许可证上下文",
+                "step2": "许可证上传",
+                "step3": "许可证回执"
+            },
+            "licensecontext": {
+                "downloadRaCInfo": "请首先将 {{filetype}}RaC 文件下载至您的计算机：",
+                "title": "创建许可证上下文文件",
+                "fileName": "文件名",
+                "ttHeader": "上下文文件",
+                "ttdeclaration": "添加或移除许可证需使用许可证上下文文件。该文件包含所选容器的当前状态。许可方将指定需选择的容器与厂商代码组合。请选择对应的容器与厂商代码组合，并下载许可证上下文文件。",
+                "ttdetail": "许可方收到上下文文件后，将生成许可证更新文件。"
+            },
+            "licenseupload": {
+                "status": "状态",
+                "affItems": "受影响项",
+                "errCode": "错误代码",
+                "title": "上传许可证更新文件",
+                "ttHeader": "上传文件",
+                "ttdeclaration": "许可方收到许可证上下文文件后，将生成许可证更新文件。",
+                "documentation": "请首先选择 {{filetype}}RaU 文件：",
+                "successUploadInfo": "许可证更新文件已成功上传。"
+            },
+            "licensereceipt": {
+                "title": "创建许可证回执文件",
+                "downloadRaRInfo": "请首先将 {{filetype}}RaR 文件下载至您的计算机：",
+                "ttHeader": "回执文件",
+                "ttdeclaration": "请将许可证回执文件提交给许可方。该文件用于确认许可证的激活或停用已成功完成。请选择对应的容器与厂商代码组合，并下载许可证回执文件：",
+                "ttdetail": "许可方收到回执文件后，可准确识别许可证的激活状态。"
+            }
+        },
+        "help": {
+            "licenseOverview": "许可证概览中显示的许可证均与 PLCnext 商店中的应用程序相关。概览中包含许可方（厂商代码）及授权产品的信息。每个许可证均可通过其所属容器的序列号进行唯一标识。许可证可安装于设备本体、插入设备的专用许可证 SD 卡，或通过网络位置访问。",
+            "offlineActivation": "当设备无法连接 PLCnext 商店时，可通过本标签页执行离线激活流程。",
+            "containerManagement": "本标签页显示各许可证的安装位置。",
+            "configuration": "本标签页的设置用于配置通过网络访问许可证。"
+        },
+        "messages": {
+            "services": {
+                "resetStorage": "已成功重置存储 {{containerType}}",
+                "createContainer": "已成功创建许可证容器：类型 {{containerType}}，厂商代码 {{firmCode}}",
+                "downloadContextInfo": "已成功生成上下文信息文件：容器 ID {{containerId}}，厂商代码 {{firmCodes}}"
+            }
+        },
+        "errorMessages": {
+            "services": {
+                "forceChacheUpdate": "缓存更新未能执行。错误代码：{{errorCode}}",
+                "resetStorage": "重置存储 {{containerType}} 失败。错误代码：{{errorCode}}",
+                "createContainer": "创建许可证容器失败：类型 {{containerType}}，厂商代码 {{firmCode}}。错误代码：{{errorCode}}",
+                "downloadContextInfo": "生成上下文信息失败：容器 ID {{containerId}}，厂商代码 {{firmCodes}}。错误代码：{{errorCode}}",
+                "readFile": "读取文件 {{path}} 失败。错误代码：{{errorCode}}",
+                "deleteFile": "删除文件 {{path}} 失败。错误代码：{{errorCode}}",
+                "writeFile": "写入文件 {{path}} 失败。错误代码：{{errorCode}}",
+                "loadConfiguration": "加载配置失败。错误代码：{{errorCode}}",
+                "saveConfiguration": "保存配置失败。错误代码：{{errorCode}}"
+            }
+        }
+    }
+}

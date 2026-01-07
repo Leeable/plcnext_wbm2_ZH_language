@@ -1,0 +1,47 @@
+{
+    "plcnextStore": {
+        "pageName": "PLCnext 商店",
+        "serviceName": "PLCnext 商店服务",
+        "titles": {
+            "generalConfiguration": "通用配置",
+            "sysInformation": "系统信息",
+            "status": "PLCnext 商店状态"
+        },
+        "statesTitles": {
+            "cloudUuid": "UUID",
+            "systemTime": "系统时间",
+            "registrationstate": "注册状态",
+            "deviceConnectivity": "设备连接性",
+            "connectivity": "商店连接性",
+            "connection": "状态"
+        },
+        "registrationState": {
+            "notAvailable": "等待连接中",
+            "available": "有效"
+        },
+        "connectionState": {
+            "ready": "就绪",
+            "connectionError": "连接错误",
+            "unknown": "状态未知"
+        },
+        "information": {
+            "offlineHeader": "状态",
+            "connectivityHeader": "无法连接至 PLCnext 商店。",
+            "registerationyHeader": "无可用注册令牌",
+            "offlineDecription": "PLCnext 商店服务已停用。",
+            "connectionDecription": "请检查：<br>– 设备已连接至本地路由器，且路由器已接入互联网。<br>– 设备 IP 地址配置正确。<br>– 设备网关配置正确。<br>– 设备系统时间已同步更新。",
+            "registerationDecription": "请在 PLCnext 商店账户中重置设备通信。"
+        },
+        "buttons": {
+            "copyToClipboard": "复制 UUID"
+        },
+        "alerts": {
+            "uuidCopied": "UUID 已复制到剪贴板。",
+            "uuidCopyFailed": "无法将 UUID 复制到剪贴板。"
+        },
+        "help": {
+            "description": "若需使设备连接 PLCnext 商店运行，请启用 PLCnext 商店服务。启用后，设备将尝试建立与 PLCnext 商店的连接。",
+            "activationNote": "注意：<span class=\"bold\">PLCnext 商店连接器</span> 服务必须在 WBM 的“系统服务”页面中激活。"
+        }
+    }
+}

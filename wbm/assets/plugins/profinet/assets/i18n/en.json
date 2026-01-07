@@ -1,0 +1,146 @@
+{
+    "profinetDiag": {
+        "pageName": "PROFINET 诊断"
+    },
+    "profinet": {
+        "loading": "正在加载数据……",
+        "loadingError": "数据加载失败。",
+        "emptyProject": "无可用的工程配置。",
+        "tabs": {
+            "overview": "概览",
+            "deviceList": "设备列表",
+            "treeView": "树状视图"
+        },
+        "overview": {
+            "status": "状态",
+            "controllerFunction": "PROFINET 控制器功能",
+            "deviceFunction": "PROFINET 设备功能",
+            "controllerDetails": "控制器详情",
+            "deviceType": "设备类型",
+            "ipAdr": "IP 地址",
+            "subnetMask": "子网掩码",
+            "defaultGateway": "默认网关",
+            "realtimeClass": "实时等级",
+            "interfaceActivated": "已激活",
+            "interfaceDeactivated": "已停用"
+        },
+        "deviceList": {
+            "index": "序号",
+            "nameOfStation": "站名",
+            "ipAdr": "IP 地址",
+            "status": "状态"
+        },
+        "treeView": {
+            "expandAll": "全部展开",
+            "collapseAll": "全部折叠",
+            "iconOk": "正常",
+            "iconWarning": "警告",
+            "iconUrgentWarning": "紧急警告",
+            "iconError": "错误",
+            "iconArDeactivated": "AR 已停用",
+            "iconModuleDiff": "模块差异",
+            "iconNoConnection": "无连接",
+            "iconNoInformation": "无信息",
+            "channel": "通道：{{number}}"
+        },
+        "deviceInfoDlg": {
+            "pageName": "设备信息",
+            "profinetDevice": "PROFINET 设备",
+            "status": "状态",
+            "arId": "AR 用户 ID",
+            "vendor": "厂商",
+            "deviceType": "设备类型",
+            "moduleCount": "模块数量",
+            "network": "网络",
+            "ipAdr": "IP 地址",
+            "subnetMask": "子网掩码",
+            "defaultGateway": "默认网关",
+            "nameOfStation": "站名",
+            "hostName": "DNS 主机名",
+            "closeDlg": "关闭",
+            "statusDetails": "状态详情"
+        },
+        "moduleInfoDlg": {
+            "pageName": "模块信息",
+            "information": "信息",
+            "configuredIn": "配置于",
+            "apiNo": "API 编号",
+            "slotNo": "插槽编号",
+            "moduleType": "模块类型",
+            "submoduleCount": "子模块数量",
+            "channelDiagnosis": "通道诊断",
+            "closeDlg": "关闭",
+            "differenceHead": "模块差异",
+            "differenceDefault": "存在模块差异（{{differenceState}}）",
+            "differenceNoModule": "无模块",
+            "differenceWrongModule": "模块不正确（{{differenceIdentNumber}}）",
+            "differenceProperModule": "模块正确，但至少有一个子模块不正确、被锁定或缺失。",
+            "differenceSubstitutedModule": "模块不同，但兼容。"
+        },
+        "submoduleInfoDlg": {
+            "pageName": "子模块信息",
+            "information": "信息",
+            "configuredIn": "配置于",
+            "apiNo": "API 编号",
+            "subslotNo": "子插槽编号",
+            "submoduleType": "子模块类型",
+            "channelDiagnosis": "通道诊断",
+            "differenceHead": "模块差异",
+            "differenceDefault": "存在模块差异（{{differenceState}}）",
+            "differenceNoSubmodule": "无子模块",
+            "differenceWrongSubmodule": "子模块错误",
+            "differenceLockedSubmodule": "子模块被锁定",
+            "differenceSubstitutedSubmodule": "子模块不同，但兼容",
+            "differenceArPending": "“应用就绪”（Application Ready）待定",
+            "differenceTakeOver": "此子模块不可用于接管（take over）",
+            "differenceSuperOrdinationLocked": "此 AR 被上级系统锁定",
+            "differenceLockedByController": "此 AR 已被另一 IOAR 占用",
+            "differenceLockedBySupervisor": "此 AR 已被另一 IOSAR 占用",
+            "differenceType": "类型"
+        },
+        "diagnosis": {
+            "pndiag_device_status_ar_deactivated": "（AR 已停用）",
+            "pndiag_device_status_ok": "（正常）",
+            "pndiag_device_status_warning": "（警告）",
+            "pndiag_device_status_error": "（错误）",
+            "pndiag_diag_text_none_span": "",
+            "pndiag_diag_text_ok_span": "正常",
+            "pndiag_diag_text_dev_disconnected_span": "无法建立设备连接",
+            "pndiag_diag_text_data_invalid": "数据无效",
+            "pndiag_diag_text_diag_available_span": "存在诊断信息",
+            "pndiag_diag_text_mod_difference_span": "存在模块差异",
+            "pndiag_diag_text_ar_deactivated_span": "AR 已停用",
+            "pndiag_diag_text_neig_not_available_span": "邻接信息不可用",
+            "pndiag_diag_text_neig_not_unique_span": "邻接信息不唯一",
+            "pndiag_diag_text_dev_already_config_span": "该设备名称已在另一 AR 中配置",
+            "pndiag_diag_text_maint_required_span": "存在“需维护”（Maintenance Required）信息",
+            "pndiag_diag_text_maint_demanded_span": "存在“要求维护”（Maintenance Demanded）信息",
+            "pndiag_diag_text_man_diag_available_span": "存在通道或厂商特定诊断信息",
+            "pndiag_no_channel_diagnosis": "无通道诊断信息"
+        },
+        "filter": {
+            "stationname": "站名",
+            "label": "显示名称",
+            "status": "状态",
+            "ipAddress": "IP 地址",
+            "ok": "正常",
+            "normal": "正常",
+            "noInfo": "无信息",
+            "arDeactivated": "AR 已停用",
+            "warning": "警告",
+            "moduleDifference": "模块差异",
+            "noConnection": "无连接",
+            "error": "错误",
+            "urgentWarning": "紧急警告"
+        },
+        "dropdown": {
+            "selectAll": "全选",
+            "allValues": "已全选",
+            "noValue": "未选择",
+            "xValues": "已选 {{value}} 项"
+        },
+        "help": {
+            "diagnosticSymbols": "诊断符号说明"
+        }
+    }
+}

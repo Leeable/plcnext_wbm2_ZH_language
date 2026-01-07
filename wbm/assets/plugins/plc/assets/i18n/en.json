@@ -1,0 +1,58 @@
+{
+    "plcIntegrity": {
+        "menuItem": "工程完整性",
+        "help": {
+            "pageTitle": "工程完整性",
+            "furtherInfo": "更多信息，请参见 ",
+            "pageDescription": "您可在此查看并配置完整性检查的行为。",
+            "modes": {
+                "disabled": "<u>已禁用</u>：完整性检查被禁用。PLCnext Engineer 工程将始终加载，PLC 启动运行。",
+                "warning": "<u>警告</u>：对 PLCnext Engineer 工程执行完整性检查。若检测到完整性破坏，工程仍继续加载，PLC 进入运行状态（PlcState.Run）。",
+                "error": "<u>错误</u>：对 PLCnext Engineer 工程执行完整性检查。若检测到完整性破坏，工程将被阻止加载，PLC 保持在就绪状态（PlcState.Ready）。"
+            },
+            "levels": {
+                "none": "<u>已禁用</u>：完整性检查不执行签名验证，仅校验哈希值。",
+                "signed": "<u>已启用</u>：启用签名验证。",
+                "signedWithTimestamp": "<u>已启用（长期签名）</u>：启用签名验证，且仅接受包含可信时间戳的签名。"
+            },
+            "trustStore": "签名验证使用名为“代码签名”的信任存储库。"
+        },
+        "integrity": {
+            "title": "工程完整性",
+            "titleStatus": "状态",
+            "titleConfig": "配置",
+            "status": "完整性状态",
+            "unknown": "未知",
+            "valid": "有效",
+            "invalid": "无效",
+            "invalidInfo": "（更多详情请参见“<a href=\"/wbm/#/diagnostics/notifications\">诊断 &gt; 通知</a>”部分。）"
+        },
+        "modes": {
+            "label": "完整性检查模式",
+            "none": "---",
+            "disabled": "已禁用",
+            "warning": "警告",
+            "error": "错误"
+        },
+        "levels": {
+            "label": "签名验证",
+            "none": "已禁用（仅哈希校验）",
+            "signed": "已启用",
+            "signedWithTimestamp": "已启用（长期签名）"
+        },
+        "messages": {
+            "errorGetIntegrityStatus": "获取完整性状态失败。",
+            "errorGetPermission": "获取权限信息失败。",
+            "errorGetConfig": "获取配置失败。",
+            "successSaveConfig": "配置已保存。",
+            "errorSaveConfig": "保存配置失败。",
+            "errorConfigReasons": {
+                "1": "未指定错误。",
+                "2": "未知配置选项。",
+                "3": "参数类型无效。",
+                "4": "参数值无效。",
+                "5": "配置保存失败。"
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "redundancyConfig": {
+        "pageName": "冗余配置",
+        "loading": "正在加载冗余数据……",
+        "general": {
+            "redundancytype": "冗余类型",
+            "redundancyrole": "冗余角色"
+        },
+        "diagnostics": {
+            "header": "诊断信息",
+            "syncstatus": "冗余状态",
+            "switchovercount": "切换次数",
+            "switchoverreason": "切换原因",
+            "syncportstatus": "同步端口（SyncPort）状态",
+            "syncvariableamount": "已同步变量的数据量（字节）"
+        },
+        "configuration": {
+            "header": "配置",
+            "settype": "设置类型"
+        },
+        "actions": {
+            "header": "操作",
+            "switchover": "角色切换",
+            "restartbasicsynclabel": "重启 Basic-Sync",
+            "restartbasicsync": "执行 Basic-Sync"
+        },
+        "dialog": {
+            "settype": "注意：是否继续设置冗余类型？",
+            "switchover": "注意：是否继续执行角色切换？",
+            "restartbasicsync": "注意：是否重启 Basic-Sync？"
+        },
+        "alerts": {
+            "switchoversuccess": "角色切换成功。",
+            "switchoverfailed": "角色切换失败。错误：{{message}}",
+            "settypesuccess": "设备冗余类型已更改。请重启设备。",
+            "settypefailed": "设置设备类型失败。错误：{{message}}",
+            "basicsyncsuccess": "Basic-Sync 执行成功。",
+            "basicsyncfailed": "Basic-Sync 执行失败。错误：{{message}}",
+            "getsyncdatasizefailed": "无法查询同步变量的数据量。错误：{{message}}",
+            "querystatusfailed": "无法查询冗余状态。错误：{{message}}",
+            "queryPermissionsFailed": "无法查询权限。错误：{{message}}"
+        }
+    }
+}

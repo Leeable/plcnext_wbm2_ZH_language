@@ -1,0 +1,100 @@
+{
+    "firewall": {
+        "pageName": "防火墙",
+        "tabs": {
+            "general": "通用",
+            "basic": "基础配置",
+            "inputRules": "IP 入站规则",
+            "outputRules": "IP 出站规则"
+        },
+        "general": {
+            "None": "无",
+            "Started": "已激活",
+            "Stopped": "已停用",
+            "Restarted": "已激活",
+            "activationStatus": "激活状态",
+            "firewallStatus": "防火墙状态",
+            "listFirewallRules": "当前生效的防火墙规则列表",
+            "generalSettings": "通用配置",
+            "activateFirewall": "激活防火墙",
+            "showRulesButtonLabel": "显示规则",
+            "activeFirewallRules": "生效的防火墙规则",
+            "table": "表",
+            "family": "协议族",
+            "content": "内容",
+            "saveToFile": "保存至文件",
+            "close": "关闭",
+            "cancel": "取消",
+            "ok": "确定",
+            "attention": "保存配置后，防火墙将被停用。是否继续？",
+            "unmanagedTables": "检测到非受管的生效防火墙规则表。PLCnext（受管）表：{{plcnextTables}}；非受管表：{{unmanagedTables}}",
+            "deactivate": "禁用防火墙",
+            "firewallActivation": {
+                "title": "防火墙激活",
+                "activated": "已激活：防火墙将永久启用，设备重启后仍保持激活状态。",
+                "deactivated": "已停用：防火墙将永久停用，设备重启后仍保持停用状态。"
+            }
+        },
+        "basicConfigurations": {
+            "icmpSettings": "ICMP 配置",
+            "allowIncomingICMPRequests": "允许入站 ICMP 请求",
+            "allowOutgoingICMPRequests": "允许出站 ICMP 请求",
+            "basicRules": "基础规则",
+            "incomingIcmpInfo": {
+                "title": "入站 ICMP 请求",
+                "activated": "已激活：允许对本设备的 Ping 请求。",
+                "deactivated": "已停用：禁止对本设备的 Ping 请求。"
+            },
+            "outgoingIcmpInfo": {
+                "title": "出站 ICMP 请求",
+                "activated": "已激活：允许本设备发起 Ping 请求。",
+                "deactivated": "已停用：禁止本设备发起 Ping 请求。"
+            }
+        },
+        "table": {
+            "seq": "序号",
+            "direction": "方向",
+            "interface": "接口",
+            "protocol": "协议",
+            "toPort": "目标端口",
+            "fromPort": "源端口",
+            "toIp": "目标 IP",
+            "fromIp": "源 IP",
+            "comment": "备注",
+            "action": "动作",
+            "input": "入站",
+            "all": "全部"
+        },
+        "action": {
+            "accept": "接受",
+            "drop": "丢弃",
+            "reject": "拒绝",
+            "continue": "继续"
+        },
+        "errors": {
+            "activeTables": "获取防火墙表失败：活跃表查询出错。",
+            "undefinedTables": "获取防火墙表失败：未定义表错误。",
+            "firewallStatus": "获取防火墙状态失败。",
+            "firewallRunStatus": "防火墙运行状态为“无”。",
+            "icmpIncoming": "获取入站 ICMP 配置失败。",
+            "icmpOutgoing": "获取出站 ICMP 配置失败。",
+            "setICMPIncoming": "设置入站 ICMP 配置失败。",
+            "setICMPOutgoing": "设置出站 ICMP 配置失败。",
+            "userInputRules": "获取用户入站规则失败。",
+            "userOutputRules": "获取用户出站规则失败。",
+            "setUserInputRules": "设置用户入站规则失败。",
+            "setUserOutputRules": "设置用户出站规则失败。",
+            "basicRules": "获取基础规则失败。",
+            "setBasicRules": "设置基础规则失败。",
+            "interfaces": "获取网络接口失败。",
+            "sync": "同步防火墙数据失败。"
+        },
+        "messages": {
+            "savedSuccessful": "防火墙配置已保存。"
+        },
+        "help": {
+            "pageDescriptionP1": "PLCnext 技术基于成熟且广泛使用的 Linux® 防火墙 ",
+            "pageDescriptionP2": "。在设备上，您无需通过复杂的 Linux 命令行配置防火墙规则，只需选用预定义的基础规则，或自行添加规则即可。"
+        }
+    }
+}

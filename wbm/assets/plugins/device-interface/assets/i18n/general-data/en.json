@@ -1,0 +1,17 @@
+{
+    "deviceInterface": {
+        "generalData": "通用数据",
+        "vendor": "厂商",
+        "address": "地址",
+        "internet": "互联网",
+        "deviceType": "设备类型",
+        "orderNr": "订货号",
+        "serialNr": "序列号",
+        "firmwareVersion": "固件版本",
+        "hardwareVersion": "硬件版本",
+        "fpgaVersion": "FPGA 版本",
+        "generalDataSplc": "通用数据（SPLC）",
+        "loadingGeneralData": "正在加载通用数据……",
+        "loadingSplcData": "正在加载通用数据（SPLC）……"
+    }
+}

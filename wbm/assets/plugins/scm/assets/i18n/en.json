@@ -1,0 +1,23 @@
+{
+    "systemServices": {
+        "pageName": "系统服务",
+        "general": {
+            "ServiceID": "服务 ID",
+            "ServiceName": "服务名称",
+            "FactoryDefault": "出厂默认状态",
+            "Activation": "启用状态"
+        },
+        "messages": {
+            "configSaveSuccess": "系统服务配置已成功保存。",
+            "loadingConfig": "正在加载配置…"
+        },
+        "errors": {
+            "configQueryError": "查询系统服务失败。错误代码：{{errorCode}}",
+            "configSaveError": "保存系统服务配置失败。错误代码：{{errorCode}}"
+        },
+        "help": {
+            "description": "“系统服务”页面展示了当前已启用与已禁用的系统服务及其出厂默认设置。",
+            "docRemark": "在禁用某个默认启用的系统服务前，请务必充分了解该服务在 PLCnext 运行时系统中的具体功能与影响，以免导致系统异常或功能缺失。"
+        }
+    }
+}

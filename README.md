@@ -40,4 +40,10 @@ podman cp wbm 05682e82573b:/var/www/plcnext/
 
 ```
 ![login](image/pic2.png)
-![content](image/pic1.png)
+![content1](image/pic1.png)
+![content2](image/pic3.png)
+![content3](image/pic4.png)
+![content4](image/pic5.png)
+![content5](image/pic6.png)
+![content6](image/pic7.png)
+![content7](image/pic8.png)
